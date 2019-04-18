@@ -1,0 +1,55 @@
+.answer-body {
+  margin-left: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #505050;
+  font-weight:bold;
+}
+
+.answer-title {
+  margin-left: 25px;
+  text-indent: -34px;
+  font-family: Open Sans;
+  font-weight: bold;
+}
+
+  .answer-title span {
+    color: #262626;
+    font-weight: normal;
+  }
+
+.question-list:nth-child(even) {
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-bottom: 1px silver solid;
+}
+
+.question-list:nth-child(odd) {
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-bottom: 1px silver solid;
+}
+
+.test-heading {
+  background: linear-gradient(#3158ff,#2020fc);
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.solution {
+  color: blue;
+  padding-bottom: 10px;
+  margin-bottom: -20px;
+}
+
+.end-anser {
+  padding-top: 10px;
+  border-bottom: 1px silver dotted;
+  padding-bottom: 5px;
+}
+p.form-check-label{
+  margin-bottom:0px;
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Longest River",
+    "options": [ "Amazone", "Ganga", "Brahmputra" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Deepest Lake",
+    "options": [ "Wooler", "Chhilka", "Hari Govind" ],
+    "answer": "Chhilka"
+  },
+  {
+    "question": "Deepest Ocean",
+    "options": [ "India", "Atlantic", "Arctic" ],
+    "answer": "Pacific Ocean"
+  },
+  {
+    "question": "Driest Place in the World",
+    "options": [ "Sahara", "Thar", "Ladakh" ],
+    "answer": "Atacama Desert"
+  },
+  {
+    "question": "Highest Mountain Peak in the World",
+    "options": [ "K2", "Kanchanjanga", "Andes" ],
+    "answer": "Mt. Everest"
+  },
+  {
+    "question": "Highest Mountain Range",
+    "options": [ "Himalayas", "Vidhya", "Andes" ],
+    "answer": "Himalayas"
+  },
+  {
+    "question": "Highest Plateau in the World",
+    "options": [ "Western", "Eastern", "Nagpur" ],
+    "answer": "Tibetan plateau"
+  },
+  {
+    "question": "Longest Railway",
+    "options": [ "China", "Grand Terminal", "New York Metro" ],
+    "answer": "Trans-Siberian Railway"
+  },
+  {
+    "question": "Longest Railway Station",
+    "options": [ "Grand Central Terminal, Chicago" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Longest Railway Platform",
+    "options": [ "Gorakhpur (Uttar Pradesh)" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Longest Railway Bridge in the World",
+    "options": [ "Danyang–Kunshan Grand Bridge" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Longest Canal in World",
+    "options": [ "Beijing-Hangzhou Grand Canal" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Longest Wall",
+    "options": [ "Great wall of China" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest Zoo",
+    "options": [ "Kruger National Park, South Africa" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest Bird",
+    "options": [ "Ostrich" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest Delta",
+    "options": [ "Sunderban Delta, W. Bengal" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest City in terms of Population",
+    "options": [ "Tokyo" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest Continent",
+    "options": [ "Asia" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest (Population) Country",
+    "options": [ "China" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest (Electorate) Country",
+    "options": [ "India" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest Creature",
+    "options": [ "Blue Whale" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest Desert",
+    "options": [ "Sahara" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest Dam",
+    "options": [ "Three Gorges Dam" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest Epic in the World",
+    "options": [ "Mahabharat" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest Island",
+    "options": [ "Greenland" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest Library in the World",
+    "options": [ "United State Library of Congress, Washington D.C." ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest Sea-bird",
+    "options": [ "Albatross" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Largest River(deepest) in the Worlds",
+    "options": [ "Amazon" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Tallest Animal in the World",
+    "options": [ "Giraffe" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Fastest Bird in the World",
+    "options": [ "Swift" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Smallest Bird in the World",
+    "options": [ "Humming Bird" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Tallest Building in the World",
+    "options": [ "Burj Khalifa" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Costliest City in the World",
+    "options": [ "Singapore" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Smallest Continent",
+    "options": [ "Australia" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Biggest Country(Area) in the World",
+    "options": [ "Russia" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Deepest Lake in the World",
+    "options": [ "Baikal (Siberia)" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Hottest Place in the World",
+    "options": [ "Death Valley, California, USA." ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Biggest Planet",
+    "options": [ "Jupiter" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Brightest Planet",
+    "options": [ "Venus" ],
+    "answer": "Nile"
+  },
+  {
+    "question": "Smallest Planet",
+    "options": [ "Mercury" ],
+    "answer": "Nile"
+  }
+]

@@ -1,0 +1,48 @@
+<div class="exam-main">
+  <div class="app-heading">
+    Monthly Speed Test
+  </div>
+  <div class="container bottom-padding">
+    <form action="test" method="get" name="test_type" novalidate="" (ngSubmit)="onRegisterSubmit()">
+      <div class="row">
+        <div class="form-group col-md-6 col-6">
+          <label>Select Date</label>
+          <input type="date" class="form-control" value="{{currentMonth}}" name="currentMonth" [(ngModel)]="currentMonth" />
+        </div>
+        <div class="form-group col-md-6 col-6">
+          <label>Select ST</label>
+          <select class="form-control form-control-sm" name="selectSpeedTest"
+                  [(ngModel)]="selectSpeedTest">
+            <!--<option *ngFor="let m of subChapters" [(ngValue)]="m.sub_chapter_id_pk">{{m.sub_chapter_name}}</option>-->
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <table class="table table-sm table-bordered">
+            <thead>
+              <tr>
+                <th>ST- No.</th>
+                <th>Maths</th>
+                <th>Eng.</th>
+                <th>GS</th>
+                <th>Reas.</th>
+                <th>Science</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let m of st_list">
+                <td><a href="#">{{m.st_name}}</a></td>
+                <td><span>{{m.maths_solved}}</span>/<span>{{m.maths_total}}</span></td>
+                <td><span>{{m.eng_solved}}</span>/<span>{{m.eng_total}}</span></td>
+                <td><span>{{m.gs_solved}}</span>/<span>{{m.gs_total}}</span></td>
+                <td><span>{{m.reas_solved}}</span>/<span>{{m.reas_total}}</span></td>
+                <td><span></span>/<span></span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

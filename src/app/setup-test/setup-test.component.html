@@ -1,0 +1,54 @@
+<div class="exam-main">
+  <div class="app-heading">
+    Select Topic
+  </div>
+  <div class="container bottom-padding">
+    <form action="test" method="get" name="test_type" novalidate="" (ngSubmit)="onRegisterSubmit()">
+      <div class="form-group">
+        <label>Select Subject</label>
+        <select name="selectedSubject" class="form-control form-control-sm" [(ngModel)]="selectedSubject" (change)="selectSubject(selectedSubject)">
+          <option *ngFor="let m of subjects; index as i" [(ngValue)]="m.subject_id_pk">{{m.sub_name}}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Select Chapter</label>
+        <select class="form-control form-control-sm" name="selectedChapter" (change)="selectChapter(selectedChapter)"
+                [(ngModel)]="selectedChapter">
+          <option *ngFor="let m of chapters" [(ngValue)]="m.chapter_id_pk">{{m.chap_name}}</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-6">
+          <label>Start From</label>
+          <select class="form-control form-control-sm" name="starting_point" [(ngModel)]="starting_point" (change)="populateTotalQuestions(starting_point)">
+            <option *ngFor="let c of questionNumberStartFrom index as i" [(ngValue)]="c">{{c+1}}</option>
+          </select>
+        </div>
+        <div class="col-md-6 col-sm-6 col-6">
+          <label>No. of Questions</label>
+          <select class="form-control form-control-sm" name="selectedTotalQuestions" [(ngModel)]="selectedTotalQuestions">
+            <option *ngFor="let c of totalQuestions index as i" [(ngValue)]="c">{{c}}</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Apply More Filters</label>
+        <select class="form-control form-control-sm" name="selectedSubChapter"
+                [(ngModel)]="selectedSubChapter">
+          <option *ngFor="let m of subChapters" [(ngValue)]="m.sub_chapter_id_pk">{{m.sub_chapter_name}}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Only Hard Questions</label>&nbsp;
+        <input type="checkbox" name="hardQuestion" [(ngModel)]="hardQuestion" value="1"/>
+      </div>
+
+      <input style="width:50%; left:0; bottom:0; border-radius:0" type="submit" (click)="actionType = 'test'" class="btn btn-primary btn-block position-fixed" value="Start Test" />
+      <input style="width:50%; right:0; bottom:0; border-radius:0" type="submit" (click)="actionType = 'learn'" class="btn btn-success btn-block position-fixed" value="Start Learn" />
+    </form>
+  </div>
+</div>

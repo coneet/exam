@@ -1,0 +1,58 @@
+<div class="exam-main">
+  <div class="app-heading">
+    Add new question
+  </div>
+  <div class="container bottom-padding">
+    <form action="" method="post" name="add_question" novalidate="" (ngSubmit)="addNewQuestion()">
+      <div class="form-group">
+        <label>Select Subject</label>
+        <select name="selectedSubject" class="form-control form-control-sm" [(ngModel)]="selectedSubject" (change)="selectSubject(selectedSubject)">
+          <option *ngFor="let m of subjects; index as i" [(ngValue)]="m.subject_id_pk">{{m.sub_name}}</option>
+        </select>
+      </div>
+      <div class="row" style="margin-bottom:10px;">
+        <div class="col-6">
+          <label>Select Chapter</label>
+          <select class="form-control form-control-sm" name="selectedChapter"
+                  [(ngModel)]="selectedChapter" (change)="getSubChapters(selectedChapter)">
+            <option *ngFor="let m of chapters" [(ngValue)]="m.chapter_id_pk">{{m.chap_name}}</option>
+          </select>
+        </div>
+
+        <div class="col-6">
+          <label>Filters</label>
+          <select class="form-control form-control-sm" name="selectedSubChapter"
+                  [(ngModel)]="selectedSubChapter">
+            <option *ngFor="let m of subChapters" [(ngValue)]="m.sub_chapter_id_pk">{{m.sub_chapter_name}}</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Enter Question</label>
+        <textarea class="form-control form-control-sm" name="newQuestion" [(ngModel)]="newQuestion"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Enter Answer</label>
+        <textarea class="form-control form-control-sm" name="questionAnswer" [(ngModel)]="questionAnswer"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Enter Option First</label>
+        <textarea class="form-control form-control-sm" name="optionA" [(ngModel)]="optionA"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Enter Option Second</label>
+        <textarea class="form-control form-control-sm" name="optionB" [(ngModel)]="optionB"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Enter Option Third</label>
+        <textarea class="form-control form-control-sm" name="optionC" [(ngModel)]="optionC"></textarea>
+      </div>
+      <input type="submit" class="btn btn-primary btn-block position-fixed fixed-bottom" value="Start Test" />
+    </form>
+  </div>
+</div>

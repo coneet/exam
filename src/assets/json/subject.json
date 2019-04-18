@@ -1,0 +1,74 @@
+[
+  {
+    "key": "english",
+    "name": "English",
+    "chapters": [
+      {
+        "key": "noun",
+        "name": "Noun"
+      },
+      {
+        "key": "pronoun",
+        "name": "Pronoun"
+      },
+      {
+        "key": "adjective",
+        "name": "Adjective"
+      },
+      {
+        "key": "verb",
+        "name": "Verb"
+      },
+      {
+        "key": "adverb",
+        "name": "Adverb"
+      },
+      {
+        "key": "preposition",
+        "name": "Preposition"
+      },
+      {
+        "key": "conjunction",
+        "name": "Conjunction"
+      },
+      {
+        "key": "question_tags",
+        "name": "Question Tags"
+      },
+      {
+        "key": "idioms",
+        "name": "Idioms"
+      }
+    ]
+  },
+  {
+    "key": "maths",
+    "name": "Mathematics",
+    "chapters": [
+      {
+        "key": "noun",
+        "name": "Noun"
+      }
+    ]
+  },
+  {
+    "key": "reasoning",
+    "name": "Reasoning",
+    "chapters": [
+      {
+        "key": "noun",
+        "name": "Noun"
+      }
+    ]
+  },
+  {
+    "key": "geography",
+    "name": "Geography",
+    "chapters": [
+      {
+        "key": "noun",
+        "name": "Noun"
+      }
+    ]
+  }
+]

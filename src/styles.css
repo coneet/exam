@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+.app-heading {
+  background: linear-gradient(#3158ff,#2020fc);
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.bottom-padding{
+  padding-bottom:75px;
+}

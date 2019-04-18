@@ -1,0 +1,21 @@
+<div class="exam-main">
+  <div class="app-heading">
+    Add new chapter
+  </div>
+  <div class="container bottom-padding">
+    <form action="" method="post" name="add_question" novalidate="" (ngSubmit)="addNewChapter()">
+      <div class="form-group">
+        <label>Select Subject</label>
+        <select name="selectedSubject" class="form-control form-control-sm" [(ngModel)]="selectedSubject">
+          <option *ngFor="let m of subjects; index as i" [(ngValue)]="m.subject_id_pk">{{m.sub_name}}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Enter Chapter Name</label>
+        <input class="form-control form-control-sm" name="chapterName" [(ngModel)]="chapterName"/>
+      </div>
+      <input type="submit" class="btn btn-primary btn-block position-fixed fixed-bottom" value="Add Chapter" />
+    </form>
+  </div>
+</div>
